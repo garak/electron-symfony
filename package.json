@@ -1,0 +1,25 @@
+{
+  "name": "electron-symfony",
+  "version": "0.1.0",
+  "description": "A Symfony application inside Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garak/electron-symfony.git"
+  },
+  "keywords": [
+    "Electron",
+    "Symfony",
+    "php"
+  ],
+  "author": "Massimiliano Arione",
+  "license": "MIT",
+  "homepage": "https://massimilianoarione.it",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.2",
+    "gulp-connect-php": "^0.0.7"
+  }
+}
