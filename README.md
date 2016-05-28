@@ -29,3 +29,8 @@ Execution
 ---------
 
 Run `npm start`
+
+The following screenshot shows an example of Symfony Standard Edition running with DevTools open:
+
+![screenshot](https://cloud.githubusercontent.com/assets/179866/15629379/f3c89fca-2517-11e6-9455-9ba87abeba54.png)
+
