@@ -24,6 +24,7 @@ Installation
   CDN assets are not working inside electron.
   For example, if you're using something like `//code.jquery.com/jquery-2.2.3.js`, you need to
   downalod `jquery-2.2.3.js` file and put it under `web/js` directory, then adjust your templates accordingly.
+* Also, if you use jquery, take a look to [this issue](http://stackoverflow.com/a/37480521/369194)
 
 Execution
 ---------
@@ -33,4 +34,3 @@ Run `npm start`
 The following screenshot shows an example of Symfony Standard Edition running with DevTools open:
 
 ![screenshot](https://cloud.githubusercontent.com/assets/179866/15629379/f3c89fca-2517-11e6-9455-9ba87abeba54.png)
-

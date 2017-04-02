@@ -8,15 +8,10 @@ var path = require("path");
 var php = require("gulp-connect-php");
 php.server({
     port: 8088,
-    hostname: "127.0.0.1",
     base: path.resolve(__dirname) + '/project/web',
-    keepalive: false,
-    open: false,
     // this is now pointing to a possible local installation of php, that is best for portability
     // feel free to change with a system-wide installed php, that is dirty & working, but less portable
-    bin: path.resolve(__dirname) + "/php/bin/php",
-    root: "/",
-    stdio: "inherit"
+    bin: path.resolve(__dirname) + "/php/bin/php"
 });
 
 
